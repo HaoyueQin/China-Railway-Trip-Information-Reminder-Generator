@@ -238,3 +238,20 @@ document.onkeydown = function (event) {
     init();
   }
 };
+// 规则说明手风琴展开/收起动画
+(function () {
+  var summary = document.querySelector(".rules-summary");
+  if (summary) {
+    summary.addEventListener("click", function () {
+      var panel = this.parentElement;
+      var content = panel.querySelector(".rules-content");
+      if (content.classList.contains("open")) {
+        content.classList.remove("open");
+        panel.classList.remove("open");
+      } else {
+        content.classList.add("open");
+        panel.classList.add("open");
+      }
+    });
+  }
+})();
