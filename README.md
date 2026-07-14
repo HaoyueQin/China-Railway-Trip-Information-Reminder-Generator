@@ -71,8 +71,8 @@ China-Railway-Trip-Information-Reminder-Generator/
 
 MIT License
 
-Copyright (c) 2024 [lijiaxuan (yuanretro)](https://github.com/yuanretro) — 核心逻辑原作者
-Copyright (c) 2025 HaoyueQin — 前端界面完善
+Copyright (c) 2024 lijiaxuan (yuanretro)
+Copyright (c) 2026 HaoyueQin
 
 ## 注意事项
 
